@@ -3209,7 +3209,6 @@
 				LastUpgradeCheck = 0610;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = Z2V957B3D6;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -3217,15 +3216,12 @@
 						};
 					};
 					F08F118319C09C6A007D70C2 = {
-						DevelopmentTeam = Z2V957B3D6;
 						TestTargetID = F0BB8BD41936208100974404;
 					};
 					F0BB8BD41936208100974404 = {
-						DevelopmentTeam = Z2V957B3D6;
 					};
 					F0F951FF1A6AEB1000254160 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = Z2V957B3D6;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
 				};
