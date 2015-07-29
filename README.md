@@ -95,3 +95,56 @@ Any Linphone view is actually presented in the UICompositeViewController, with o
 The UICompositeViewController consists of 3 areas laid out vertically. From top to bottom: StateBar, Content and TabBar.
 The TabBar is usually the UIMainBar, which is used as a navigation controller: clicking on each of the buttons will trigger
 a transition to another "view".
+
+# 编译环境安装
+* 安装brew
+```
+  $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+* 安装编译需要的库
+```
+ $ brew install autoconf automake pkg-config doxygen nasm gettext wget yasm optipng imagemagick coreutils intltool cmake
+ ```
+
+* 下载安装JDK安装包
+```
+ safari  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+```
+
+* 安装脚本
+```
+ $ wget --no-check-certificate https://raw.github.com/yuvi/gas-preprocessor/master/gas-preprocessor.pl
+ $ chmod +x gas-preprocessor.pl
+ $ sudo mv gas-preprocessor.pl /usr/local/bin/.
+```
+
+* 在.bash_profile文件增加环境目录:
+```
+ For HomeBrew: LOCAL_BIN_DIR=/usr/local/bin
+ export PATH=$LOCAL_BIN_DIR:$PATH
+```
+
+* 参考下面的文件:
+```
+ $ cat .bash_profile 
+ #!/bin/bash
+ export CLICOLOR=1
+ export LSCOLORS=ExFxBxDxCxegedabagacad
+ alias ll='ls -al'
+ if [ -f $(brew --prefix)/etc/bash_completion ]; then . $(brew --prefix)/etc/bash_completion; fi
+ export PATH=$PATH:/Users/richard/1.bin/arm-gcc4.4.6/bin:/usr/local/bin:/usr/local/Cellar/gettext/0.19.5.1/bin
+```
+
+* 需要做文件连接
+```
+ $ sudo ln -s /usr/local/bin/glibtoolize /usr/local/bin/libtoolize
+ $ sudo ln -s /usr/bin/strings /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/strings
+```
+
+* 需要安装commandline for mac app.
+
+* 编译命令:
+```
+ $ ./prepare.py -c && ./prepare.py && make
+```
