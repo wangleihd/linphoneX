@@ -67,6 +67,7 @@ The project `submodule/liblinphone.xcodeproj` can be used for this purpose.
 - The delegate is set to LinphoneAppDelegate in main.m, in the UIApplicationMain() by passing its class
 - Basic layout:
 
+```
 MainStoryboard
         |
         | (rootViewController)
@@ -84,6 +85,7 @@ MainStoryboard
                             #--> contentView
                             |
                             #--> tabBar
+```
 
 
 When the app is started, the phoneMainView gets asked to transition to the Dialer view or the Wizard view.
