@@ -119,7 +119,6 @@
 		63058A281B4E821E00EFAE36 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63058A151B4E821E00EFAE36 /* Main_iPad.storyboard */; };
 		63058A291B4E821E00EFAE36 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63058A171B4E821E00EFAE36 /* Main_iPhone.storyboard */; };
 		63058A2A1B4E821E00EFAE36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63058A1A1B4E821E00EFAE36 /* DetailViewController.m */; };
-		63058A2B1B4E821E00EFAE36 /* LinphoneTester-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63058A1C1B4E821E00EFAE36 /* LinphoneTester-Info.plist */; };
 		63058A2C1B4E821E00EFAE36 /* LogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63058A1F1B4E821E00EFAE36 /* LogsViewController.m */; };
 		63058A2D1B4E821E00EFAE36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63058A201B4E821E00EFAE36 /* main.m */; };
 		63058A2E1B4E821E00EFAE36 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63058A221B4E821E00EFAE36 /* MasterViewController.m */; };
@@ -178,6 +177,19 @@
 		7066FC0C13E830E400EFC6DC /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7066FC0B13E830E400EFC6DC /* libvpx.a */; };
 		70E542F313E147E3002BA2C0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E542F213E147E3002BA2C0 /* OpenGLES.framework */; };
 		70E542F513E147EB002BA2C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E542F413E147EB002BA2C0 /* QuartzCore.framework */; };
+		79E8B8A61B6A0E8B000E5130 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8B8A51B6A0E8B000E5130 /* MainPage.m */; };
+		79E8B8BA1B6A1215000E5130 /* anfang.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8AE1B6A1214000E5130 /* anfang.png */; };
+		79E8B8BB1B6A1215000E5130 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8AF1B6A1214000E5130 /* food.png */; };
+		79E8B8BC1B6A1215000E5130 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B01B6A1214000E5130 /* game.png */; };
+		79E8B8BD1B6A1215000E5130 /* jiaju.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B11B6A1214000E5130 /* jiaju.png */; };
+		79E8B8BE1B6A1215000E5130 /* jiankang.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B21B6A1214000E5130 /* jiankang.png */; };
+		79E8B8BF1B6A1215000E5130 /* jianshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B31B6A1214000E5130 /* jianshi.png */; };
+		79E8B8C01B6A1215000E5130 /* meiti.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B41B6A1215000E5130 /* meiti.png */; };
+		79E8B8C11B6A1215000E5130 /* shui.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B51B6A1215000E5130 /* shui.png */; };
+		79E8B8C21B6A1215000E5130 /* tonghua.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B61B6A1215000E5130 /* tonghua.png */; };
+		79E8B8C31B6A1215000E5130 /* wuye.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B71B6A1215000E5130 /* wuye.png */; };
+		79E8B8C41B6A1215000E5130 /* xiaoxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B81B6A1215000E5130 /* xiaoxi.png */; };
+		79E8B8C51B6A1215000E5130 /* zhengwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B91B6A1215000E5130 /* zhengwu.png */; };
 		C90FAA7915AF54E6002091CB /* HistoryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90FAA7715AF54E6002091CB /* HistoryDetailsViewController.m */; };
 		C9C8254315AE204D00D493FA /* options_add_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C8253F15AE204D00D493FA /* options_add_disabled.png */; };
 		C9C8254515AE204D00D493FA /* options_transfer_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C8254015AE204D00D493FA /* options_transfer_disabled.png */; };
@@ -1121,6 +1133,20 @@
 		7066FC0B13E830E400EFC6DC /* libvpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvpx.a; path = "liblinphone-sdk/apple-darwin/lib/libvpx.a"; sourceTree = "<group>"; };
 		70E542F213E147E3002BA2C0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		70E542F413E147EB002BA2C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79E8B8A41B6A0E8B000E5130 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		79E8B8A51B6A0E8B000E5130 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
+		79E8B8AE1B6A1214000E5130 /* anfang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anfang.png; path = image_hm/anfang.png; sourceTree = "<group>"; };
+		79E8B8AF1B6A1214000E5130 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food.png; path = image_hm/food.png; sourceTree = "<group>"; };
+		79E8B8B01B6A1214000E5130 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game.png; path = image_hm/game.png; sourceTree = "<group>"; };
+		79E8B8B11B6A1214000E5130 /* jiaju.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jiaju.png; path = image_hm/jiaju.png; sourceTree = "<group>"; };
+		79E8B8B21B6A1214000E5130 /* jiankang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jiankang.png; path = image_hm/jiankang.png; sourceTree = "<group>"; };
+		79E8B8B31B6A1214000E5130 /* jianshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jianshi.png; path = image_hm/jianshi.png; sourceTree = "<group>"; };
+		79E8B8B41B6A1215000E5130 /* meiti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meiti.png; path = image_hm/meiti.png; sourceTree = "<group>"; };
+		79E8B8B51B6A1215000E5130 /* shui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shui.png; path = image_hm/shui.png; sourceTree = "<group>"; };
+		79E8B8B61B6A1215000E5130 /* tonghua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tonghua.png; path = image_hm/tonghua.png; sourceTree = "<group>"; };
+		79E8B8B71B6A1215000E5130 /* wuye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wuye.png; path = image_hm/wuye.png; sourceTree = "<group>"; };
+		79E8B8B81B6A1215000E5130 /* xiaoxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xiaoxi.png; path = image_hm/xiaoxi.png; sourceTree = "<group>"; };
+		79E8B8B91B6A1215000E5130 /* zhengwu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhengwu.png; path = image_hm/zhengwu.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* linphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "linphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		C90FAA7615AF54E6002091CB /* HistoryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDetailsViewController.h; sourceTree = "<group>"; };
 		C90FAA7715AF54E6002091CB /* HistoryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailsViewController.m; sourceTree = "<group>"; };
@@ -2077,6 +2103,8 @@
 				D3EA53FC159850E80037DC6B /* LinphoneManager.m */,
 				2214EB7012F84668002A5394 /* LinphoneUI */,
 				F0642EF019DAC891009DB336 /* MainStoryboard.storyboard */,
+				79E8B8A41B6A0E8B000E5130 /* MainPage.h */,
+				79E8B8A51B6A0E8B000E5130 /* MainPage.m */,
 				D3F83F8C158229C500336684 /* PhoneMainView.h */,
 				D3F83F8D15822ABD00336684 /* PhoneMainView.m */,
 				636316D71A1DECC90009B839 /* PhoneMainView.xib */,
@@ -2618,6 +2646,18 @@
 		F0B89C2318DC90850050B60E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				79E8B8AE1B6A1214000E5130 /* anfang.png */,
+				79E8B8AF1B6A1214000E5130 /* food.png */,
+				79E8B8B01B6A1214000E5130 /* game.png */,
+				79E8B8B11B6A1214000E5130 /* jiaju.png */,
+				79E8B8B21B6A1214000E5130 /* jiankang.png */,
+				79E8B8B31B6A1214000E5130 /* jianshi.png */,
+				79E8B8B41B6A1215000E5130 /* meiti.png */,
+				79E8B8B51B6A1215000E5130 /* shui.png */,
+				79E8B8B61B6A1215000E5130 /* tonghua.png */,
+				79E8B8B71B6A1215000E5130 /* wuye.png */,
+				79E8B8B81B6A1215000E5130 /* xiaoxi.png */,
+				79E8B8B91B6A1215000E5130 /* zhengwu.png */,
 				D3D52A751614495300DEB00A /* accept_default_landscape~ipad.png */,
 				D3F83F741582253100336684 /* accept_default.png */,
 				D3D52A761614495300DEB00A /* accept_default~ipad.png */,
@@ -3206,9 +3246,10 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0640;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = FVJDKW5BEE;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -3217,8 +3258,6 @@
 					};
 					F08F118319C09C6A007D70C2 = {
 						TestTargetID = F0BB8BD41936208100974404;
-					};
-					F0BB8BD41936208100974404 = {
 					};
 					F0F951FF1A6AEB1000254160 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -3334,6 +3373,7 @@
 				22F254811073D99800AC9B3F /* ringback.wav in Resources */,
 				2237D4091084D7A9001383EE /* ring.wav in Resources */,
 				636316D11A1DEBCB0009B839 /* AboutViewController.xib in Resources */,
+				79E8B8BD1B6A1215000E5130 /* jiaju.png in Resources */,
 				2242E313125235120061DDCE /* ring.caf in Resources */,
 				D38187C915FE346400C3EDCA /* FirstLoginViewController.xib in Resources */,
 				2214783D1386A2030020F8B8 /* Localizable.strings in Resources */,
@@ -3390,6 +3430,7 @@
 				D3F83F621582223B00336684 /* numpad_seven_over.png in Resources */,
 				D3F83F641582223B00336684 /* numpad_eight_default.png in Resources */,
 				D3F83F661582223B00336684 /* numpad_eight_over.png in Resources */,
+				79E8B8C41B6A1215000E5130 /* xiaoxi.png in Resources */,
 				D3F83F681582223B00336684 /* numpad_nine_default.png in Resources */,
 				D3F83F6A1582223B00336684 /* numpad_nine_over.png in Resources */,
 				D3F83F6C1582223B00336684 /* numpad_sharp_default.png in Resources */,
@@ -3438,6 +3479,7 @@
 				D31C9C94158A1C1000756B45 /* call_status_outgoing.png in Resources */,
 				639CEB001A1DF4E4004DE38F /* UIHistoryCell.xib in Resources */,
 				D3432A62158A4446001C6B0B /* led_connected.png in Resources */,
+				79E8B8BA1B6A1215000E5130 /* anfang.png in Resources */,
 				D3432A64158A4446001C6B0B /* led_error.png in Resources */,
 				D3432A66158A4446001C6B0B /* call_quality_indicator_0.png in Resources */,
 				D3432A68158A4446001C6B0B /* call_quality_indicator_1.png in Resources */,
@@ -3518,6 +3560,7 @@
 				D3196D3815A321E3007FEEBA /* options_transfer_default.png in Resources */,
 				D3196D3A15A321E3007FEEBA /* options_transfer_over.png in Resources */,
 				D38187DD15FE348A00C3EDCA /* WizardViewController.xib in Resources */,
+				79E8B8C01B6A1215000E5130 /* meiti.png in Resources */,
 				D350F21C15A43D3400149E54 /* setup_back_default.png in Resources */,
 				D350F21E15A43D3400149E54 /* setup_back_over.png in Resources */,
 				D350F22015A43D3400149E54 /* setup_cancel_default.png in Resources */,
@@ -3555,8 +3598,10 @@
 				D37C638E15AAD251009D0BAC /* contact_number_over.png in Resources */,
 				D37C639015AAD251009D0BAC /* contact_number.png in Resources */,
 				D381881515FE3F7F00C3EDCA /* UIContactDetailsHeader.xib in Resources */,
+				79E8B8C51B6A1215000E5130 /* zhengwu.png in Resources */,
 				D3C6526B15AC228A0092A874 /* contact_ok_default.png in Resources */,
 				D3C6526D15AC228A0092A874 /* contact_ok_over.png in Resources */,
+				79E8B8BF1B6A1215000E5130 /* jianshi.png in Resources */,
 				D38187B515FE341B00C3EDCA /* ContactDetailsLabelViewController.xib in Resources */,
 				D38187F415FE354700C3EDCA /* UIContactDetailsFooter.xib in Resources */,
 				D32D5AA715ADE5D9008593F3 /* button_alert_background_default.png in Resources */,
@@ -3668,6 +3713,7 @@
 				D3A74F0015C69392001500B9 /* history_over~ipad.png in Resources */,
 				D3A74F0215C69392001500B9 /* history_selected_landscape~ipad.png in Resources */,
 				D3A74F0415C69392001500B9 /* history_selected~ipad.png in Resources */,
+				79E8B8C31B6A1215000E5130 /* wuye.png in Resources */,
 				D3A74F0615C69392001500B9 /* micro_off_default~ipad.png in Resources */,
 				F0C1F9141A28781F009402C9 /* logo.png in Resources */,
 				D3A74F0815C69392001500B9 /* micro_off_disabled~ipad.png in Resources */,
@@ -3743,6 +3789,7 @@
 				D33988DA15C6DD1600CAF1E4 /* options_transfer_default_landscape~ipad.png in Resources */,
 				D33988DC15C6DD1600CAF1E4 /* options_transfer_disabled_landscape~ipad.png in Resources */,
 				D33988DE15C6DD1600CAF1E4 /* options_transfer_over_landscape~ipad.png in Resources */,
+				79E8B8C11B6A1215000E5130 /* shui.png in Resources */,
 				D33988E015C6DD1600CAF1E4 /* pause_off_default_landscape~ipad.png in Resources */,
 				D33988E215C6DD1600CAF1E4 /* pause_off_over_landscape~ipad.png in Resources */,
 				D33988E415C6DD1600CAF1E4 /* pause_on_default_landscape~ipad.png in Resources */,
@@ -3751,6 +3798,7 @@
 				D33988EA15C6DD1600CAF1E4 /* speaker_off_disabled_landscape~ipad.png in Resources */,
 				D33988EC15C6DD1600CAF1E4 /* speaker_off_over_landscape~ipad.png in Resources */,
 				D33988EE15C6DD1600CAF1E4 /* speaker_on_default_landscape~ipad.png in Resources */,
+				79E8B8BE1B6A1215000E5130 /* jiankang.png in Resources */,
 				D33988F015C6DD1600CAF1E4 /* speaker_on_disabled_landscape~ipad.png in Resources */,
 				D33988F215C6DD1600CAF1E4 /* speaker_on_over_landscape~ipad.png in Resources */,
 				D33988F815C6DD1600CAF1E4 /* video_off_default_landscape~ipad.png in Resources */,
@@ -3780,6 +3828,7 @@
 				D3998D0416031937009DD22C /* background_alt.png in Resources */,
 				D3866C281608CA1600830F95 /* image_back_default.png in Resources */,
 				D3866C2A1608CA1600830F95 /* image_back_over.png in Resources */,
+				79E8B8C21B6A1215000E5130 /* tonghua.png in Resources */,
 				D3F5F8F71609A86700D3DA1A /* chat_cancel_default.png in Resources */,
 				D3F5F8F91609A86700D3DA1A /* chat_cancel_over.png in Resources */,
 				D3F5F8FB1609A86700D3DA1A /* chat_photo_default.png in Resources */,
@@ -3796,6 +3845,7 @@
 				D3F5F9171609A86700D3DA1A /* setup_cancel_disabled_landscape~ipad.png in Resources */,
 				D3F5F9191609A86700D3DA1A /* setup_cancel_disabled~ipad.png in Resources */,
 				D3F5F91B1609A86700D3DA1A /* setup_cancel_over_landscape~ipad.png in Resources */,
+				79E8B8BC1B6A1215000E5130 /* game.png in Resources */,
 				D3F5F91F1609A86700D3DA1A /* setup_start_default_landscape~ipad.png in Resources */,
 				D3F5F9211609A86700D3DA1A /* setup_start_default~ipad.png in Resources */,
 				D3F5F9231609A86700D3DA1A /* setup_start_disabled_landscape~ipad.png in Resources */,
@@ -3813,6 +3863,7 @@
 				D3D51257160B35CB00946DF8 /* chat_message_background.9@2x.png in Resources */,
 				D3D5126C160B3A8E00946DF8 /* WizardViews.xib in Resources */,
 				D3D51270160B3AD400946DF8 /* WizardViewController~ipad.xib in Resources */,
+				79E8B8BB1B6A1215000E5130 /* food.png in Resources */,
 				D3328646160B5BC300E6435D /* dialer_alt_disabled_landscape.png in Resources */,
 				D3328648160B5BC300E6435D /* dialer_alt_disabled_landscape~ipad.png in Resources */,
 				D332864A160B5BC300E6435D /* dialer_alt_disabled.png in Resources */,
@@ -3906,7 +3957,6 @@
 				63058AE01B4E937300EFAE36 /* sounds in Resources */,
 				63058AE21B4E93A100EFAE36 /* tester_hosts in Resources */,
 				F84015C11939FE37006ABAB5 /* test_passed.png in Resources */,
-				63058A2B1B4E821E00EFAE36 /* LinphoneTester-Info.plist in Resources */,
 				63058A2F1B4E821E00EFAE36 /* TesterImages.xcassets in Resources */,
 				63058A251B4E821E00EFAE36 /* InfoPlist.strings in Resources */,
 				63058A271B4E821E00EFAE36 /* Main_iPhone.strings in Resources */,
@@ -4066,6 +4116,7 @@
 				D380800015C2894A005BE9BC /* IASKSwitch.m in Sources */,
 				D380800215C2894A005BE9BC /* IASKTextField.m in Sources */,
 				D380800515C28A7A005BE9BC /* UILinphone.m in Sources */,
+				79E8B8A61B6A0E8B000E5130 /* MainPage.m in Sources */,
 				D380801315C299D0005BE9BC /* ColorSpaceUtilites.m in Sources */,
 				637157A11B283FE200C91677 /* FileTransferDelegate.m in Sources */,
 				D378AB2A15DCDB4A0098505D /* ImagePickerViewController.m in Sources */,
@@ -4572,7 +4623,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -4639,6 +4689,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: jehan monnier";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4662,7 +4713,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -4728,6 +4778,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4751,7 +4802,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -4816,6 +4866,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: jehan monnier";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4839,7 +4890,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -4904,6 +4954,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: jehan monnier (E8MYPN2NXL)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

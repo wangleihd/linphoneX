@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="eUP-Pz-8te">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7QZ-xi-weQ">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Phone Main View-->
         <scene sceneID="qBS-cv-8Um">
             <objects>
                 <viewController storyboardIdentifier="PhoneMainView" wantsFullScreenLayout="YES" id="eUP-Pz-8te" customClass="PhoneMainView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nbS-Sx-ROQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="KqB-fT-acw"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6Tz-cV-9RM">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" image="background.png" id="aXd-fi-pw6" userLabel="background">
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="aXd-fi-pw6" userLabel="background">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="rlH-Ra-JOu" userLabel="statusBarBG">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rlH-Ra-JOu" userLabel="statusBarBG">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="20"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
                         </subviews>
@@ -37,15 +39,153 @@
                     <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="342" y="73"/>
+            <point key="canvasLocation" x="273" y="9"/>
+        </scene>
+        <!--Phone Main View-->
+        <scene sceneID="AsQ-VH-4t4">
+            <objects>
+                <viewController storyboardIdentifier="MainPage" id="7QZ-xi-weQ" customClass="PhoneMainView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kuU-nd-MBL"/>
+                        <viewControllerLayoutGuide type="bottom" id="oRV-WH-gT1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lJ0-Y7-zcH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ6-i1-1xQ">
+                                <rect key="frame" x="7" y="25" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.47843137250000001" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="70" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="政务在线" backgroundImage="zhengwu.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMP-Lf-Cp3">
+                                <rect key="frame" x="112" y="25" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.12431699490000001" green="0.25638740339999999" blue="0.049140217319999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="75" maxX="135" maxY="0.0"/>
+                                <state key="normal" title="物业家政" backgroundImage="wuye.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBP-Mh-9Wb">
+                                <rect key="frame" x="7" y="132" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.89019607840000003" green="0.56470588239999997" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="70" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="健康小屋" backgroundImage="jiankang.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWE-9q-waB">
+                                <rect key="frame" x="212" y="239" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.42745098040000001" green="0.37647058820000001" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="70" maxX="55" maxY="0.0"/>
+                                <state key="normal" title="监视" backgroundImage="jianshi.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1x-nL-ca0">
+                                <rect key="frame" x="112" y="132" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.80000000000000004" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="70" maxX="55" maxY="0.0"/>
+                                <state key="normal" title="安防" backgroundImage="anfang.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzf-Tc-rw8">
+                                <rect key="frame" x="112" y="346" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.3294117647" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="70" maxX="55" maxY="0.0"/>
+                                <state key="normal" title="消息" backgroundImage="xiaoxi.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-Uf-Trf">
+                                <rect key="frame" x="7" y="453" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.30588235289999999" green="0.74117647060000003" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="75" maxX="35" maxY="0.0"/>
+                                <state key="normal" title="矿化水" backgroundImage="shui.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-nJ-2yQ">
+                                <rect key="frame" x="7" y="346" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.3803921569" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="70" maxX="55" maxY="0.0"/>
+                                <state key="normal" title="媒体" backgroundImage="meiti.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxs-kn-WJS">
+                                <rect key="frame" x="7" y="239" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.12431699490000001" green="0.25638740339999999" blue="0.049140217319999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="75" maxX="135" maxY="0.0"/>
+                                <state key="normal" title="娱乐购物" backgroundImage="game.png">
+                                    <color key="titleColor" red="0.0" green="0.00039344475330000002" blue="0.57070707070000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbM-jr-4tg">
+                                <rect key="frame" x="112" y="453" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.12431699490000001" green="0.25638740339999999" blue="0.049140217319999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="75" maxX="135" maxY="0.0"/>
+                                <state key="normal" title="餐饮美食" backgroundImage="food.png">
+                                    <color key="titleColor" red="0.0" green="0.00039344475330000002" blue="0.57070707070000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGp-6V-nI4">
+                                <rect key="frame" x="212" y="132" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.24313725489999999" green="0.73725490199999999" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="70" maxX="30" maxY="0.0"/>
+                                <state key="normal" title="智能家居" backgroundImage="jiaju.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSo-Q7-QDf">
+                                <rect key="frame" x="212" y="346" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.64705882349999999" green="0.86274509799999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="70" maxX="55" maxY="0.0"/>
+                                <state key="normal" title="通话" backgroundImage="tonghua.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eUP-Pz-8te" kind="showDetail" id="iqz-tK-LJ4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rS4-XQ-Pj0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1007" y="-3"/>
         </scene>
     </scenes>
     <resources>
+        <image name="anfang.png" width="100" height="100"/>
         <image name="background.png" width="640" height="523"/>
+        <image name="food.png" width="412" height="206"/>
+        <image name="game.png" width="412" height="206"/>
+        <image name="jiaju.png" width="100" height="100"/>
+        <image name="jiankang.png" width="100" height="100"/>
+        <image name="jianshi.png" width="100" height="100"/>
+        <image name="meiti.png" width="100" height="100"/>
+        <image name="shui.png" width="100" height="100"/>
+        <image name="tonghua.png" width="100" height="100"/>
+        <image name="wuye.png" width="412" height="206"/>
+        <image name="xiaoxi.png" width="100" height="100"/>
+        <image name="zhengwu.png" width="100" height="100"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
-    </simulatedMetricsContainer>
 </document>
