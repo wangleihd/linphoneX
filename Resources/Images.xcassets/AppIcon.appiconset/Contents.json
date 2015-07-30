@@ -3,43 +3,43 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "29乘以1_03.png",
+      "filename" : "29x1.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "40乘以1_19.png",
+      "filename" : "29x2.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "40乘以2_07.png",
+      "filename" : "40x2.png",
       "scale" : "2x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "57乘以1_03.png",
+      "filename" : "57x1.png",
       "scale" : "1x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "57乘以2_16.png",
+      "filename" : "57x2.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "60乘以2_20.png",
+      "filename" : "60x2.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "60乘以3_22.png",
+      "filename" : "60x3.png",
       "scale" : "3x"
     },
     {
@@ -54,8 +54,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "40x1.png",
       "scale" : "1x"
     },
     {
@@ -66,37 +67,37 @@
     {
       "size" : "50x50",
       "idiom" : "ipad",
-      "filename" : "50乘以2_06.png",
+      "filename" : "50x1.png",
       "scale" : "1x"
     },
     {
       "size" : "50x50",
       "idiom" : "ipad",
-      "filename" : "50乘以1_03.png",
+      "filename" : "50x2.png",
       "scale" : "2x"
     },
     {
       "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "72乘以1_19.png",
+      "filename" : "72x1.png",
       "scale" : "1x"
     },
     {
       "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "72乘以2_43.png",
+      "filename" : "72x2.png",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "76乘以1_46.png",
+      "filename" : "76x1.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "76乘以2_43.png",
+      "filename" : "76x2.png",
       "scale" : "2x"
     }
   ],

@@ -190,6 +190,7 @@
 		79E8B8C31B6A1215000E5130 /* wuye.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B71B6A1215000E5130 /* wuye.png */; };
 		79E8B8C41B6A1215000E5130 /* xiaoxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B81B6A1215000E5130 /* xiaoxi.png */; };
 		79E8B8C51B6A1215000E5130 /* zhengwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8B91B6A1215000E5130 /* zhengwu.png */; };
+		79E8B8C71B6A2573000E5130 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79E8B8C61B6A2572000E5130 /* welcome.jpg */; };
 		C90FAA7915AF54E6002091CB /* HistoryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90FAA7715AF54E6002091CB /* HistoryDetailsViewController.m */; };
 		C9C8254315AE204D00D493FA /* options_add_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C8253F15AE204D00D493FA /* options_add_disabled.png */; };
 		C9C8254515AE204D00D493FA /* options_transfer_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C8254015AE204D00D493FA /* options_transfer_disabled.png */; };
@@ -1147,6 +1148,7 @@
 		79E8B8B71B6A1215000E5130 /* wuye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wuye.png; path = image_hm/wuye.png; sourceTree = "<group>"; };
 		79E8B8B81B6A1215000E5130 /* xiaoxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xiaoxi.png; path = image_hm/xiaoxi.png; sourceTree = "<group>"; };
 		79E8B8B91B6A1215000E5130 /* zhengwu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhengwu.png; path = image_hm/zhengwu.png; sourceTree = "<group>"; };
+		79E8B8C61B6A2572000E5130 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcome.jpg; path = image_hm/welcome.jpg; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* linphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "linphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		C90FAA7615AF54E6002091CB /* HistoryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDetailsViewController.h; sourceTree = "<group>"; };
 		C90FAA7715AF54E6002091CB /* HistoryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailsViewController.m; sourceTree = "<group>"; };
@@ -2648,6 +2650,7 @@
 			children = (
 				79E8B8AE1B6A1214000E5130 /* anfang.png */,
 				79E8B8AF1B6A1214000E5130 /* food.png */,
+				79E8B8C61B6A2572000E5130 /* welcome.jpg */,
 				79E8B8B01B6A1214000E5130 /* game.png */,
 				79E8B8B11B6A1214000E5130 /* jiaju.png */,
 				79E8B8B21B6A1214000E5130 /* jiankang.png */,
@@ -3916,6 +3919,7 @@
 				1599105D16F746B2007BF52B /* route_phone_off_disabled_landscape.png in Resources */,
 				1599105F16F746B2007BF52B /* route_phone_off_over_landscape.png in Resources */,
 				1599106116F746B2007BF52B /* route_phone_on_default_landscape.png in Resources */,
+				79E8B8C71B6A2573000E5130 /* welcome.jpg in Resources */,
 				1599106316F746B2007BF52B /* route_speaker_off_default_landscape.png in Resources */,
 				1599106516F746B2007BF52B /* route_speaker_off_disabled_landscape.png in Resources */,
 				1599106716F746B2007BF52B /* route_speaker_off_over_landscape.png in Resources */,
